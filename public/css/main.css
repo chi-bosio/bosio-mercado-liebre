@@ -54,3 +54,36 @@ article{
     font-size: 16px;
     display: none;
 }
+
+@media(min-width: 481px){
+    .description{
+        display: block;
+    }
+    main section article {
+        width: calc(50% - 14px);
+    }
+}
+@media(min-width: 769px){
+    article:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    main section article{
+        width: calc(25% - 14px);
+    }
+
+    .products{
+        height: 6em;
+    }
+    .products i:hover{
+        transform: rotate(-90deg);
+    }
+    .products i:hover{
+        
+        transition: transform 500ms;
+    }
+    .description{
+        opacity: 0;
+    }
+
+    
+}
