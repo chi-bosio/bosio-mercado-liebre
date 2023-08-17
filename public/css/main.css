@@ -1,0 +1,50 @@
+main{
+    background-color: #ebebeb;
+    margin: auto;
+    padding: 24px;
+}
+main section{
+    display: flex;
+    flex-wrap: wrap;
+}
+main section h2{
+    width: 100%;
+    padding: 30px 7px 10px;
+}
+article{
+    margin: 7px;
+}
+
+.products{
+    border-top: 1px solid #ebebeb;
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+}
+.products i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    color: #39b54a;
+    background-color: #fff;
+    top: -15px;
+    position: absolute;
+    right: 20px;
+}
+
+.cost{
+    display: flex;
+    width: 100%;
+}
+.prices{
+    padding-right: 7px;
+    margin-bottom: 10px;
+}
+.discounts{
+    color: #39b54a;
+    width: calc(100% - 7px);
+}

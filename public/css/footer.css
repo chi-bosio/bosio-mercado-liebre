@@ -1,0 +1,16 @@
+.centered-footer{
+    display:contents;
+    text-align: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    border: 2px solid green;
+   
+}
+.icons{
+    display: flex;
+    font-size: 2em;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
