@@ -3,48 +3,94 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+html,
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
 }
-
-.main-header{
-    background-color: #eac926;
-    padding: 20px;
+img {
+    width: 100%;
+}
+p {
     font-size: 12px;
 }
-
-.logo{
-    width: 200px;
+h2 {
+    font-size: 24px;
+}
+header{
+    background-color: #eac926;
+    margin: auto;
+}
+nav{
+    display: none;
 }
 
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+}
+.main-header-top-bar a{
+    width: 50%;
+}
+.logo{
+    width: 100%;
+    padding-right: 5%;
+    margin-bottom: 30px;
+}
+
+.search{
+    width: 50%;
+    padding: 2px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#searchPrd{
+    width: 100%;
+    padding: 5px;
+    padding-right: 4%;
+    flex-grow: 1;
+    border: none;
+    border-radius: 5px;
+}
+.search i{
+    margin: 6px 0px;
+    padding: 0px 6px;
+    border-left: solid 1px #ebebeb;
+    background-color: white;
+    position: absolute;
+    right: 4%;
+    z-index: 10;
+}
+.icon-top{
+    margin: 0px 2px;
+}
 .copy-header{
     font-weight: 400;
     text-align: center;
 }
-
 .hamburguer-button{
-    background-color: #03264c;
-    color: #ffffff;
-    display: block;
-    max-width: 50px;
-    padding: 15px 0;
-    border-radius: 8px;
     text-align: center;
-    font-size: 18px;
+}
+.hamburguer-button i{
+    background-color: #03264c;
+    color: #fff;
+    padding: 12px;
+    border-radius: 10px;
     margin: auto;
 }
 
 .main-navbar{
     display: none;
 }
-
 .main-navbar ul{
     list-style: none;
     margin: 0;
     padding: 0;
 }
-
 .main-navbar a{
     text-decoration: none;
     color: #222222;

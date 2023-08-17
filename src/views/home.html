@@ -13,17 +13,28 @@
     <title>Mercado liebre</title>
 </head>
     <body>
-        <header class="main-header">
-            <div class="main-header-top-bar">
-                <img src="/img/logo-mercado-liebre.svg" class="logo">
-                <h2 class="copy-header">
-                    <i class="fa-solid fa-hand-holding-dollar"></i>
+        <header>
+            <section class="main-header-top-bar">
+                <a href="./">
+                    <img src="/img/logo-mercado-liebre.svg" class="logo">
+                </a>
+                <div class="search">
+                    <input
+                        type="search"
+                        name="searchPrd"
+                        id="searchPrd"
+                        placeholder="Buscar productos, marcas"
+                    />
+                    <i class="fas fa-search"></i>
+                </div>
+                <p class="copy-header">
+                    <i class="icon-top fa-solid fa-hand-holding-dollar"></i>
                     Comprá en cuotas y sin tarjeta de crédito
-                </h2>
-            </div>
-            <a href="#" class="hamburguer-button">
+                </p>
+            </section>           
+            <div class="hamburguer-button">
                 <i class="fa-solid fa-bars"></i>
-            </a>
+            </div>
             <nav class="main-navbar">
                 <ul class="left-navbar">
                     <li><a href="#">Ofertas</a></li>
