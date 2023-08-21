@@ -101,17 +101,25 @@ nav{
     opacity: 0.8;
 }
 
-@media (min-width: 481px){
+@media (min-width: 361px){
     .main-header{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .main-header-top-bar{
+        position: relative;
         display: flex;
         justify-content: space-between;
     }
+    .main-header-top-bar a{
+        width: 33%;
+    }
+    .search {
+        width: 33%;
+    }
     .copy-header{
-        max-width: 350px;
-        text-align: right;
+        padding-left: 5%;
+        margin-bottom: 30px;
+        width: 33%;
     }
     .hamburguer-button{
         display: none;
@@ -122,9 +130,17 @@ nav{
     }
     .main-navbar ul{
         display: flex;
+        flex-wrap: wrap;
     }
     .main-navbar li{
-        margin: 0 5px;
+        margin: 10px;
+        list-style: none;
+    }
+    .left-navbar{
+        justify-content: left;
+    }
+    .right-navbar{
+        justify-content: right;
     }
 }
 

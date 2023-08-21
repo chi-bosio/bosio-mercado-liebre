@@ -55,7 +55,7 @@ article{
     display: none;
 }
 
-@media(min-width: 481px){
+@media(min-width: 361px){
     .description{
         display: block;
     }
