@@ -27,5 +27,14 @@ footer p{
     footer section div{
         width: 30%;
         margin: auto;
+        opacity: 0.5;
+    }
+    footer:hover section div{
+        opacity: 1;
+        -webkit-transition: opacity 1000ms;
+        -moz-transition: opacity 1000ms;
+        -o-transition: opacity 1000ms;
+        -ms-transition: opacity 1000ms;
+        transition: opacity 1000ms;
     }
 }

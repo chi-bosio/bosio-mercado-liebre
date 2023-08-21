@@ -81,8 +81,16 @@ article{
         
         transition: transform 500ms;
     }
-    .description{
+    .products h4{
         opacity: 0;
+    }
+    .products:hover h4{
+        opacity: 1;
+        -webkit-transition: opacity 2000ms;
+        -moz-transition: opacity 2000ms;
+        -o-transition: opacity 2000ms;
+        -ms-transition: opacity 2000ms;
+        transition: opacity 2000ms;
     }
 
     

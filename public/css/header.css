@@ -24,7 +24,6 @@ header{
 nav{
     display: none;
 }
-
 .main-header-top-bar{
     display: flex;
     flex-wrap: wrap;
@@ -98,6 +97,9 @@ nav{
     padding: 5px 0;
     font-size: 17px;
 }
+.banner{
+    opacity: 0.8;
+}
 
 @media (min-width: 481px){
     .main-header{
@@ -151,5 +153,16 @@ nav{
     }
     .main-navbar a{
         font-size: 19px;
+    }
+    .banner{
+        opacity: 0.5;
+    }
+    .banner:hover{
+        opacity: 1;
+        -webkit-transition: opacity 1000ms;
+        -moz-transition: opacity 1000ms;
+        -o-transition: opacity 1000ms;
+        -ms-transition: opacity 1000ms;
+        transition: opacity 1000ms;
     }
 }
